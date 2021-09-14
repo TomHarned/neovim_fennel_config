@@ -30,6 +30,8 @@
   :Olical/aniseed {:branch :develop}
   ;clojure
   :Olical/conjure {:branch :master :mod :conjure}
+  ;;plenary - lua functions
+  :nvim-lua/plenary.nvim {}
   ;file searching
   :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
@@ -44,6 +46,11 @@
                                 :hrsh7th/cmp-nvim-lsp
                                 :PaterJason/cmp-conjure]
                      :mod :cmp}
+ ;; Neorg
+ ;; This is not working yetneorg neorg                                  │
+ :nvim-neorg/neorg {:mod :neorg
+                    :requires [:plenary.nvim]}
+
  ;; slime 
  :jpalardy/vim-slime {} 
 
@@ -62,7 +69,7 @@
  :tpope/vim-surround {:mod :sexp}
 
  ;; I don't think we need this one
- :jaawerth/fennel-nvim {}
+ ;;:jaawerth/fennel-nvim {}
  )
 
 

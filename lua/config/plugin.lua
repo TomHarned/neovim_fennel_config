@@ -1,4 +1,4 @@
-local _2afile_2a = "/home/theuser/.config/nvim/fnl/config/plugin.fnl"
+local _2afile_2a = "plugin.fnl"
 local _2amodule_name_2a = "config.plugin"
 local _2amodule_2a
 do
@@ -45,4 +45,4 @@ local function use(...)
   return packer.startup(_2_)
 end
 _2amodule_locals_2a["use"] = use
-return use("wbthomason/packer.nvim", {}, "Olical/aniseed", {branch = "develop"}, "Olical/conjure", {branch = "master", mod = "conjure"}, "nvim-telescope/telescope.nvim", {requires = {"nvim-lua/popup.nvim", "nvim-lua/plenary.nvim"}, mod = "telescope"}, "nvim-treesitter/nvim-treesitter", {run = ":TSUpdate", mod = "treesitter"}, "neovim/nvim-lspconfig", {mod = "lspconfig"}, "hrsh7th/nvim-cmp", {requires = {"hrsh7th/cmp-buffer", "hrsh7th/cmp-nvim-lsp", "PaterJason/cmp-conjure"}, mod = "cmp"}, "jpalardy/vim-slime", {}, "projekt0n/github-nvim-theme", {mod = "theme"}, "folke/tokyonight.nvim", {mod = "theme"}, "shaunsingh/nord.nvim", {mod = "theme"}, "glepnir/zephyr-nvim", {mod = "theme"}, "romgrk/doom-one.vim", {}, "guns/vim-sexp", {mod = "sexp"}, "tpope/vim-sexp-mappings-for-regular-people", {mod = "sexp"}, "tpope/vim-repeat", {mod = "sexp"}, "tpope/vim-surround", {mod = "sexp"}, "jaawerth/fennel-nvim", {})
+return use("wbthomason/packer.nvim", {}, "Olical/aniseed", {branch = "develop"}, "Olical/conjure", {branch = "master", mod = "conjure"}, "nvim-lua/plenary.nvim", {}, "nvim-telescope/telescope.nvim", {requires = {"nvim-lua/popup.nvim", "nvim-lua/plenary.nvim"}, mod = "telescope"}, "nvim-treesitter/nvim-treesitter", {run = ":TSUpdate", mod = "treesitter"}, "neovim/nvim-lspconfig", {mod = "lspconfig"}, "hrsh7th/nvim-cmp", {requires = {"hrsh7th/cmp-buffer", "hrsh7th/cmp-nvim-lsp", "PaterJason/cmp-conjure"}, mod = "cmp"}, "nvim-neorg/neorg", {mod = "neorg", requires = {"plenary.nvim"}}, "jpalardy/vim-slime", {}, "projekt0n/github-nvim-theme", {mod = "theme"}, "folke/tokyonight.nvim", {mod = "theme"}, "shaunsingh/nord.nvim", {mod = "theme"}, "glepnir/zephyr-nvim", {mod = "theme"}, "romgrk/doom-one.vim", {}, "guns/vim-sexp", {mod = "sexp"}, "tpope/vim-sexp-mappings-for-regular-people", {mod = "sexp"}, "tpope/vim-repeat", {mod = "sexp"}, "tpope/vim-surround", {mod = "sexp"})

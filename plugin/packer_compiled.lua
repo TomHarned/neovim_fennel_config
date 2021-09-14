@@ -93,13 +93,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/theuser/.local/share/nvim/site/pack/packer/start/doom-one.vim"
   },
-  ["fennel-nvim"] = {
-    loaded = true,
-    path = "/home/theuser/.local/share/nvim/site/pack/packer/start/fennel-nvim"
-  },
   ["github-nvim-theme"] = {
     loaded = true,
     path = "/home/theuser/.local/share/nvim/site/pack/packer/start/github-nvim-theme"
+  },
+  neorg = {
+    loaded = true,
+    path = "/home/theuser/.local/share/nvim/site/pack/packer/start/neorg"
   },
   ["nord.nvim"] = {
     loaded = true,

@@ -1,4 +1,4 @@
-local _2afile_2a = "/home/theuser/.config/nvim/fnl/config/plugin/treesitter.fnl"
+local _2afile_2a = "plugin/treesitter.fnl"
 local _2amodule_name_2a = "config.plugin.treesitter"
 local _2amodule_2a
 do
