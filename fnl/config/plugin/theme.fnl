@@ -5,4 +5,4 @@
 ;;              :commentStyle "italic"})
 
 (vim.cmd "colorscheme tokyonight")
-;;(vim.cmd "colorscheme zephyr")
+;;(vim.cmd "colorscheme doom-one")

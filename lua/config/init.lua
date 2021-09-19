@@ -1,4 +1,4 @@
-local _2afile_2a = "init.fnl"
+local _2afile_2a = ".config/nvim/fnl/config/init.fnl"
 local _2amodule_name_2a = "config.init"
 local _2amodule_2a
 do
@@ -32,7 +32,7 @@ nvim.set_keymap("n", "<leader>bn", ":bn<CR>", {noremap = true})
 nvim.set_keymap("n", "<leader>ls", ":ls<CR>", {noremap = true})
 nvim.set_keymap("n", "<leader>bs", ":new<CR>", {noremap = true})
 do
-  local options = {completeopt = "menuone,noselect", compatible = false, modifiable = true, hidden = true, swapfile = false, number = true, autoindent = true, syntax = on, cc = "79", wildmode = "longest,list", tabstop = 8, softtabstop = 0, splitbelow = true, splitright = true, expandtab = true, ruler = true, shiftwidth = 4, smarttab = true, ignorecase = true, smartcase = true, path = "**", clipboard = "unnamedplus"}
+  local options = {completeopt = "menuone,noselect", compatible = false, modifiable = true, hidden = true, swapfile = false, number = true, autoindent = true, syntax = on, termguicolors = true, cc = "79", wildmode = "longest,list", tabstop = 8, softtabstop = 0, splitbelow = true, splitright = true, expandtab = true, ruler = true, shiftwidth = 4, smarttab = true, ignorecase = true, smartcase = true, path = "**", clipboard = "unnamedplus"}
   for option, value in pairs(options) do
     core.assoc(nvim.o, option, value)
   end

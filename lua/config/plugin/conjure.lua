@@ -1,4 +1,4 @@
-local _2afile_2a = "plugin/conjure.fnl"
+local _2afile_2a = ".config/nvim/fnl/config/plugin/conjure.fnl"
 local _2amodule_name_2a = "config.plugin.conjure"
 local _2amodule_2a
 do

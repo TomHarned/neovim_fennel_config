@@ -1,4 +1,4 @@
-local _2afile_2a = "plugin/sexp.fnl"
+local _2afile_2a = ".config/nvim/fnl/config/plugin/sexp.fnl"
 local _2amodule_name_2a = "config.plugin.sexp"
 local _2amodule_2a
 do
@@ -14,5 +14,5 @@ local autoload = (require("aniseed.autoload")).autoload
 local nvim = autoload("aniseed.nvim")
 do end (_2amodule_locals_2a)["nvim"] = nvim
 nvim.g.sexp_mappings = {sexp_swap_element_backward = "", sexp_swap_element_forward = "", sexp_swap_list_backward = "", sexp_swap_list_forward = ""}
-nvim.g.sexp_filetypes = "clojure,scheme,lisp,timl,fennel"
+nvim.g.sexp_filetypes = "clojure,scheme,lisp,timl,fennel,racket"
 return nil

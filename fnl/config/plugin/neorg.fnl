@@ -3,21 +3,10 @@
              neorg neorg
              }})
 
-;; This is not working yet
-;; (neorg.setup
-;;    {:core
-;;      {:defaults {}
-;;       :norg 
-;;        {:concealer {}
-;;         :dirman
-;;          {:config
-;;           {:workspaces {:my_workspace "~/neorg"}}}}}})
-
-(set neorg.config
-   {:core
-     {:defaults ""
-      :norg 
-       {:concealer {}
-        :dirman
-         {:config
-          {:workspaces {:my_workspace "~/neorg"}}}}}})
+(neorg.setup 
+  {:load {:core.defaults {}
+   :core.keybinds {:config
+                    {:default_keybinds true :neorg_leader "<Leader>o"}}
+   :core.norg.concealer {}
+   :core.norg.dirman {:config
+                      {:my_workspaces "~/neorg"}}}}) 

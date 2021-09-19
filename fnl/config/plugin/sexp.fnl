@@ -7,7 +7,7 @@
                            :sexp_swap_list_backward ""
                            :sexp_swap_list_forward ""})
 
-(set nvim.g.sexp_filetypes "clojure,scheme,lisp,timl,fennel")
+(set nvim.g.sexp_filetypes "clojure,scheme,lisp,timl,fennel,racket")
 
 
 

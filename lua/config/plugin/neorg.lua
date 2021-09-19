@@ -1,4 +1,4 @@
-local _2afile_2a = "plugin/neorg.fnl"
+local _2afile_2a = ".config/nvim/fnl/config/plugin/neorg.fnl"
 local _2amodule_name_2a = "config.plugin.neorg"
 local _2amodule_2a
 do
@@ -14,5 +14,4 @@ local autoload = (require("aniseed.autoload")).autoload
 local neorg, nvim = autoload("neorg"), autoload("aniseed.nvim")
 do end (_2amodule_locals_2a)["neorg"] = neorg
 _2amodule_locals_2a["nvim"] = nvim
-neorg.config = {core = {defaults = "", norg = {concealer = {}, dirman = {config = {workspaces = {my_workspace = "~/neorg"}}}}}}
-return nil
+return neorg.setup({load = {["core.defaults"] = {}, ["core.keybinds"] = {config = {default_keybinds = true, neorg_leader = "<Leader>o"}}, ["core.norg.concealer"] = {}, ["core.norg.dirman"] = {config = {my_workspaces = "~/neorg"}}}})

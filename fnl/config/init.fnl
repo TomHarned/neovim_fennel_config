@@ -45,6 +45,7 @@
        :number true
        :autoindent true
        :syntax on
+       :termguicolors true
        ;; column width
        :cc "79"
        :wildmode "longest,list"

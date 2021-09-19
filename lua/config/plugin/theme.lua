@@ -1,4 +1,4 @@
-local _2afile_2a = "plugin/theme.fnl"
+local _2afile_2a = ".config/nvim/fnl/config/plugin/theme.fnl"
 local _2amodule_name_2a = "config.plugin.theme"
 local _2amodule_2a
 do
